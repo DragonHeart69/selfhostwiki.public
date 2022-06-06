@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://selfhostwiki.fam-decrock.eu/nl/</loc>
+    <lastmod>2022-06-05T08:12:34+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://selfhostwiki.fam-decrock.eu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://selfhostwiki.fam-decrock.eu/nl/"
+                />
+  </url>
+  <url>
     <loc>https://selfhostwiki.fam-decrock.eu/nl/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -11,19 +25,6 @@
                 rel="alternate"
                 hreflang="nl"
                 href="https://selfhostwiki.fam-decrock.eu/nl/categories/"
-                />
-  </url>
-  <url>
-    <loc>https://selfhostwiki.fam-decrock.eu/nl/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://selfhostwiki.fam-decrock.eu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://selfhostwiki.fam-decrock.eu/nl/"
                 />
   </url>
   <url>

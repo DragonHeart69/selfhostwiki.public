@@ -1,17 +1,17 @@
 [
   {
-    "content": "",
+    "content": "DragonHeart69 notes Target On this website I would like to collect all the basic information I have learned in the last few months (at the start of this blog/wiki), with the intention of supplementing it regularly with new information so that I myself can find everything easily, and don’t always have to google when I need something, but equally to offer other (starters) a good overview.\nAbout I am Dimitri, 35 years old and live in West-Flanders (Belgium). Ever since I was a kid I’ve been into computers, windows, software \u0026 HTML, with a basic CSS as well as a minimum in PHP. I’ve learned a lot over the years, but at the beginning of this year (2022) something new (that I’ve been putting off for a long time) came on my path that I finally took the time to look into: Docker. Then I quickly found out that Linux (which I also kept postponing), is also part of it. A few months later I stopped using Docker on Windows \u0026 my old computer came back in handy. This was renamed to Linux server with ProxMox, Debian, Alpine, Home Assistant, Docker, and who knows what else. Also Github which I already knew about but never really used came with this.\nTranslations My native language is Flemish (Dutch), my English is not good though, and so these translations are provided by deepl.com. I also know that these translations sometimes leave something to be desired. So I hereby invite you to help me improve these translations.\nQuestions or comments If you have any questions or comments you can always send me an email at dimitri@fam-decrock.eu.\n",
     "description": "",
     "tags": null,
-    "title": "Categories",
-    "uri": "/categories/"
+    "title": "My IT notes in a wiki",
+    "uri": "/"
   },
   {
     "content": "",
     "description": "",
     "tags": null,
-    "title": "My IT notes in a wiki",
-    "uri": "/"
+    "title": "Categories",
+    "uri": "/categories/"
   },
   {
     "content": "",
