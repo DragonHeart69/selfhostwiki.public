@@ -7,5 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Jun 2022 08:12:34 +0200</lastBuildDate><atom:link href="https://selfhostwiki.fam-decrock.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basics of Linux</title>
+      <link>https://selfhostwiki.fam-decrock.eu/linux-basics/</link>
+      <pubDate>Thu, 02 Jun 2022 17:30:34 +0200</pubDate>
+      <guid>https://selfhostwiki.fam-decrock.eu/linux-basics/</guid>
+      <description>Basics of Linux This is where we need to start Docker and other things lean very hard on Linux making it almost impossible to skip this step. Because of this, I want to post this one first as a &amp;ldquo;good&amp;rdquo; foundation for all subsequent topics.</description>
+    </item>
   </channel>
 </rss>

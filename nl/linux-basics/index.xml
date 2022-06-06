@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basis van Linux on Mijn IT notities in een wiki</title>
+    <link>https://selfhostwiki.fam-decrock.eu/nl/linux-basics/</link>
+    <description>Recent content in Basis van Linux on Mijn IT notities in een wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jun 2022 17:30:34 +0200</lastBuildDate><atom:link href="https://selfhostwiki.fam-decrock.eu/nl/linux-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hernoemen, verplaatsen, kopieren &amp; plakken van bestanden</title>
+      <link>https://selfhostwiki.fam-decrock.eu/nl/linux-basics/rename-move-copy-past-files/</link>
+      <pubDate>Thu, 02 Jun 2022 17:43:55 +0200</pubDate>
+      <guid>https://selfhostwiki.fam-decrock.eu/nl/linux-basics/rename-move-copy-past-files/</guid>
+      <description>Dit is al een goed begin, met 1 command kan je 2 verschillende dingen uitvoeren.
+Hernoemen &amp;amp; verplaatsen van bestanden en mappen mv (optie) bestandsnaam1.ext bestandsnaam2.ext mv (optie) /folder/die/hernoemt/word /folder/die/hernoemt/is Hiermee word &amp;lsquo;bestandsnaam1.ext verplaatst en/of hernoemt naar bestandsnaam2.ext
+verplaatsen mv /home/user/files/bestandsnaam.ext /etc/bestandsnaam.ext mv /home/user/files/ /etc/files/ hernoemen mv /home/user/files/bestandsnaam.ext /home/user/files/nieuwe_bestandsnaam.ext mv /home/user/files/ /etc/user/nieuwe_files/ combinatie mv /home/user/files/bestandsnaam.ext /etc/nieuwe_bestandsnaam.ext mv /home/user/files/ /etc/nieuwe_files/ Kopieren van bestanden </description>
+    </item>
+  </channel>
+</rss>

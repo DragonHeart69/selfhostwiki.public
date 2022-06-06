@@ -7,6 +7,20 @@
     "uri": "/nl/"
   },
   {
+    "content": "Basis van Linux Hiermee moeten we beginnen Docker en andere dingen leunen zeer hard op Linux waardoor het bijna onmogelijk is om deze stap over te slaan. Hierdoor wil ik deze als eerste plaatsen als “goede” basis voor alle volgende onderwerpen.\n",
+    "description": "",
+    "tags": null,
+    "title": "Basis van Linux",
+    "uri": "/nl/linux-basics/"
+  },
+  {
+    "content": "Dit is al een goed begin, met 1 command kan je 2 verschillende dingen uitvoeren.\nHernoemen \u0026 verplaatsen van bestanden en mappen mv (optie) bestandsnaam1.ext bestandsnaam2.ext mv (optie) /folder/die/hernoemt/word /folder/die/hernoemt/is Hiermee word ‘bestandsnaam1.ext verplaatst en/of hernoemt naar bestandsnaam2.ext\nverplaatsen mv /home/user/files/bestandsnaam.ext /etc/bestandsnaam.ext mv /home/user/files/ /etc/files/ hernoemen mv /home/user/files/bestandsnaam.ext /home/user/files/nieuwe_bestandsnaam.ext mv /home/user/files/ /etc/user/nieuwe_files/ combinatie mv /home/user/files/bestandsnaam.ext /etc/nieuwe_bestandsnaam.ext mv /home/user/files/ /etc/nieuwe_files/ Kopieren van bestanden ",
+    "description": "",
+    "tags": null,
+    "title": "Hernoemen, verplaatsen, kopieren \u0026 plakken van bestanden",
+    "uri": "/nl/linux-basics/rename-move-copy-past-files/"
+  },
+  {
     "content": "",
     "description": "",
     "tags": null,

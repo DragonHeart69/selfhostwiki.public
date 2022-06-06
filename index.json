@@ -7,6 +7,20 @@
     "uri": "/"
   },
   {
+    "content": "Basics of Linux This is where we need to start Docker and other things lean very hard on Linux making it almost impossible to skip this step. Because of this, I want to post this one first as a “good” foundation for all subsequent topics.\n",
+    "description": "",
+    "tags": null,
+    "title": "Basics of Linux",
+    "uri": "/linux-basics/"
+  },
+  {
+    "content": "This is already a good start, with 1 command you can perform 2 different things.\nRename and move files mv (option) filename1.ext filename2.ext mv (option) /folder/who/rename/ /folder/who/renamed/ Moves the filename1.ext and/or renames it to filename2.ext.\nmove mv /home/user/files/filename.ext /etc/filename.ext mv /home/user/files/ /etc/files/ rename mv /home/user/files/filename.ext /home/user/files/new_filename.ext mv /home/user/files/ /etc/user/new_files/ combination mv /home/user/files/filename.ext /etc/new_filename.ext mv /home/user/files/ /etc/new_files/ ",
+    "description": "",
+    "tags": null,
+    "title": "Rename, move, copy \u0026 past files",
+    "uri": "/linux-basics/rename-move-copy-past-files/"
+  },
+  {
     "content": "",
     "description": "",
     "tags": null,

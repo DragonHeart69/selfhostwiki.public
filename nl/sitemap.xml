@@ -15,6 +15,34 @@
                 />
   </url>
   <url>
+    <loc>https://selfhostwiki.fam-decrock.eu/nl/linux-basics/</loc>
+    <lastmod>2022-06-02T17:30:34+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://selfhostwiki.fam-decrock.eu/linux-basics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://selfhostwiki.fam-decrock.eu/nl/linux-basics/"
+                />
+  </url>
+  <url>
+    <loc>https://selfhostwiki.fam-decrock.eu/nl/linux-basics/rename-move-copy-past-files/</loc>
+    <lastmod>2022-06-02T17:43:55+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://selfhostwiki.fam-decrock.eu/linux-basics/rename-move-copy-past-files/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://selfhostwiki.fam-decrock.eu/nl/linux-basics/rename-move-copy-past-files/"
+                />
+  </url>
+  <url>
     <loc>https://selfhostwiki.fam-decrock.eu/nl/categories/</loc>
     <xhtml:link
                 rel="alternate"

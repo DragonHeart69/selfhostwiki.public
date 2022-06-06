@@ -9,17 +9,17 @@
     <title>Mijn IT notities in een wiki</title>
     <link rel="canonical" type="text/html" href="/nl/" title="Mijn IT notities in een wiki" />
     <link rel="alternate" type="application/rss&#43;xml" href="/nl/index.xml" title="Mijn IT notities in een wiki" />
-    <link href="/css/nucleus.css?1654502636" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1654502636" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1654502636" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1654502636" rel="stylesheet">
-    <link href="/css/auto-complete.css?1654502636" rel="stylesheet">
-    <link href="/css/theme.css?1654502636" rel="stylesheet">
-    <link href="/css/theme-relearn-light.css?1654502636" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1654502636" rel="stylesheet">
-    <link href="/css/variant.css?1654502636" rel="stylesheet">
-    <link href="/css/print.css?1654502636" rel="stylesheet">
-    <script src="/js/variant.js?1654502636"></script>
+    <link href="/css/nucleus.css?1654502962" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1654502962" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1654502962" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1654502962" rel="stylesheet">
+    <link href="/css/auto-complete.css?1654502962" rel="stylesheet">
+    <link href="/css/theme.css?1654502962" rel="stylesheet">
+    <link href="/css/theme-relearn-light.css?1654502962" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1654502962" rel="stylesheet">
+    <link href="/css/variant.css?1654502962" rel="stylesheet">
+    <link href="/css/print.css?1654502962" rel="stylesheet">
+    <script src="/js/variant.js?1654502962"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -35,7 +35,7 @@
       var baseUriFull='https:\/\/selfhostwiki.fam-decrock.eu/';
       variants.init( [ 'relearn-light', 'relearn-dark', 'learn', 'neon', 'red', 'green', 'blue' ] );
     </script>
-    <script src="/js/jquery.min.js?1654502636"></script>
+    <script src="/js/jquery.min.js?1654502962"></script>
   </head>
   <body class="mobile-support print" data-url="/nl/">
     <div id="body" class="default-animation">
@@ -44,7 +44,7 @@
       <nav id="topbar" class="highlightable">
         <div>
           <div class="navigation">
-             <span class="nav nav-next"><i class="fa fa-chevron-right fa-fw"></i></span>
+             <a class="nav nav-next" href="/nl/linux-basics/" title="Basis van Linux"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
              <span class="nav nav-prev"><i class="fa fa-chevron-left fa-fw"></i></span>
@@ -99,6 +99,41 @@
             </footer>
           </article>
           <section>
+    
+          <article class="chapter">
+
+<h1 id="basis-van-linux">Basis van Linux</h1>
+<h2 id="hiermee-moeten-we-beginnen">Hiermee moeten we beginnen</h2>
+<p>Docker en andere dingen leunen zeer hard op Linux waardoor het bijna onmogelijk is om deze stap over te slaan. Hierdoor wil ik deze als eerste plaatsen als &ldquo;goede&rdquo; basis voor alle volgende onderwerpen.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+          <section>
+    
+          <article>
+
+<h1>Hernoemen, verplaatsen, kopieren &amp; plakken van bestanden</h1>
+<p>Dit is al een goed begin, met 1 command kan je 2 verschillende dingen uitvoeren.</p>
+<h2 id="hernoemen--verplaatsen-van-bestanden-en-mappen">Hernoemen &amp; verplaatsen van bestanden en mappen</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mv <span style="color:#f92672">(</span>optie<span style="color:#f92672">)</span> bestandsnaam1.ext bestandsnaam2.ext
+</span></span><span style="display:flex;"><span>mv <span style="color:#f92672">(</span>optie<span style="color:#f92672">)</span> /folder/die/hernoemt/word /folder/die/hernoemt/is
+</span></span></code></pre></div><p>Hiermee word &lsquo;bestandsnaam1.ext verplaatst en/of hernoemt naar bestandsnaam2.ext</p>
+<h3 id="verplaatsen">verplaatsen</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mv /home/user/files/bestandsnaam.ext /etc/bestandsnaam.ext
+</span></span><span style="display:flex;"><span>mv /home/user/files/ /etc/files/
+</span></span></code></pre></div><h3 id="hernoemen">hernoemen</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mv /home/user/files/bestandsnaam.ext /home/user/files/nieuwe_bestandsnaam.ext
+</span></span><span style="display:flex;"><span>mv /home/user/files/ /etc/user/nieuwe_files/
+</span></span></code></pre></div><h3 id="combinatie">combinatie</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mv /home/user/files/bestandsnaam.ext /etc/nieuwe_bestandsnaam.ext
+</span></span><span style="display:flex;"><span>mv /home/user/files/ /etc/nieuwe_files/
+</span></span></code></pre></div><h2 id="kopieren-van-bestanden">Kopieren van bestanden</h2>
+
+            <footer class="footline">
+            </footer>
+          </article>
+          </section>
           </section>
         </div>
       </main>
@@ -171,9 +206,9 @@
           <input data-search-input id="search-by" type="search" placeholder="Zoeken...">
           <span data-search-clear=""><i class="fas fa-times"></i></span>
         </div>
-        <script src="/js/lunr.min.js?1654502636"></script>
-        <script src="/js/auto-complete.js?1654502636"></script>
-        <script src="/js/search.js?1654502636"></script>
+        <script src="/js/lunr.min.js?1654502962"></script>
+        <script src="/js/auto-complete.js?1654502962"></script>
+        <script src="/js/search.js?1654502962"></script>
       </div>
       <div id="homelinks" class="default-animation">
         <ul>
@@ -184,6 +219,8 @@
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
+          <li data-nav-id="/nl/linux-basics/" title="Basis van Linux" class="dd-item"><input type="checkbox" id="section-47d0f102d73e6b5d1b630d73565075ea" class="toggle"/><label for="section-47d0f102d73e6b5d1b630d73565075ea" ></label><a href="/nl/linux-basics/"><b>1. </b>Basis van Linux</a><ul>
+          <li data-nav-id="/nl/linux-basics/rename-move-copy-past-files/" title="Hernoemen, verplaatsen, kopieren &amp; plakken van bestanden" class="dd-item"><a href="/nl/linux-basics/rename-move-copy-past-files/">Hernoemen, verplaatsen, kopieren &amp; plakken van bestanden</a></li></ul></li>
         </ul>
         <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showFooter"></div>
         <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showFooter"/>
@@ -229,9 +266,9 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1654502636"></script>
-    <script src="/js/perfect-scrollbar.min.js?1654502636"></script>
-    <script src="/js/featherlight.min.js?1654502636"></script>
-    <script src="/js/theme.js?1654502636"></script>
+    <script src="/js/clipboard.min.js?1654502962"></script>
+    <script src="/js/perfect-scrollbar.min.js?1654502962"></script>
+    <script src="/js/featherlight.min.js?1654502962"></script>
+    <script src="/js/theme.js?1654502962"></script>
   </body>
 </html>

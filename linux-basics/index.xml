@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics of Linux on My IT notes in a wiki</title>
+    <link>https://selfhostwiki.fam-decrock.eu/linux-basics/</link>
+    <description>Recent content in Basics of Linux on My IT notes in a wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jun 2022 17:30:34 +0200</lastBuildDate><atom:link href="https://selfhostwiki.fam-decrock.eu/linux-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rename, move, copy &amp; past files</title>
+      <link>https://selfhostwiki.fam-decrock.eu/linux-basics/rename-move-copy-past-files/</link>
+      <pubDate>Thu, 02 Jun 2022 17:43:55 +0200</pubDate>
+      <guid>https://selfhostwiki.fam-decrock.eu/linux-basics/rename-move-copy-past-files/</guid>
+      <description>This is already a good start, with 1 command you can perform 2 different things.
+Rename and move files mv (option) filename1.ext filename2.ext mv (option) /folder/who/rename/ /folder/who/renamed/ Moves the filename1.ext and/or renames it to filename2.ext.
+move mv /home/user/files/filename.ext /etc/filename.ext mv /home/user/files/ /etc/files/ rename mv /home/user/files/filename.ext /home/user/files/new_filename.ext mv /home/user/files/ /etc/user/new_files/ combination mv /home/user/files/filename.ext /etc/new_filename.ext mv /home/user/files/ /etc/new_files/ </description>
+    </item>
+  </channel>
+</rss>

@@ -7,5 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Jun 2022 08:12:34 +0200</lastBuildDate><atom:link href="https://selfhostwiki.fam-decrock.eu/nl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basis van Linux</title>
+      <link>https://selfhostwiki.fam-decrock.eu/nl/linux-basics/</link>
+      <pubDate>Thu, 02 Jun 2022 17:30:34 +0200</pubDate>
+      <guid>https://selfhostwiki.fam-decrock.eu/nl/linux-basics/</guid>
+      <description>Basis van Linux Hiermee moeten we beginnen Docker en andere dingen leunen zeer hard op Linux waardoor het bijna onmogelijk is om deze stap over te slaan. Hierdoor wil ik deze als eerste plaatsen als &amp;ldquo;goede&amp;rdquo; basis voor alle volgende onderwerpen.</description>
+    </item>
   </channel>
 </rss>
