@@ -6,19 +6,19 @@
     <meta name="generator" content="Hugo 0.97.0" />
     <meta name="generator" content="Relearn 3.4.1&#43;tip">
     <meta name="description" content="">
-    <title>Tags :: My New Hugo Site</title>
-    <link rel="alternate" type="application/rss&#43;xml" href="/tags/index.xml" title="My New Hugo Site" />
-    <link href="/css/nucleus.css?1654500155" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1654500155" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1654500155" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1654500155" rel="stylesheet">
-    <link href="/css/auto-complete.css?1654500155" rel="stylesheet">
-    <link href="/css/theme.css?1654500155" rel="stylesheet">
-    <link href="/css/theme-relearn-light.css?1654500155" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1654500155" rel="stylesheet">
-    <link href="/css/variant.css?1654500155" rel="stylesheet">
-    <link href="/css/print.css?1654500155" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1654500155"></script>
+    <title>Tags :: My IT notes in a wiki</title>
+    <link rel="alternate" type="application/rss&#43;xml" href="/tags/index.xml" title="My IT notes in a wiki" />
+    <link href="/css/nucleus.css?1654501976" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1654501976" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1654501976" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1654501976" rel="stylesheet">
+    <link href="/css/auto-complete.css?1654501976" rel="stylesheet">
+    <link href="/css/theme.css?1654501976" rel="stylesheet">
+    <link href="/css/theme-relearn-light.css?1654501976" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1654501976" rel="stylesheet">
+    <link href="/css/variant.css?1654501976" rel="stylesheet">
+    <link href="/css/print.css?1654501976" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1654501976"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -31,10 +31,10 @@
       window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
       window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
       // some further base stuff
-      var baseUriFull='http:\/\/example.org/';
-      variants.init( [ 'relearn-light' ] );
+      var baseUriFull='https:\/\/selfhostwiki.fam-decrock.eu/';
+      variants.init( [ 'relearn-light', 'relearn-dark', 'learn', 'neon', 'red', 'green', 'blue' ] );
     </script>
-    <script src="/js/jquery.min.js?1654500155"></script>
+    <script src="/js/jquery.min.js?1654501976"></script>
   </head>
   <body class="mobile-support" data-url="/tags/">
     <div id="body" class="default-animation">
@@ -46,7 +46,7 @@
              <span class="nav nav-next"><i class="fa fa-chevron-right fa-fw"></i></span>
           </div>
           <div class="navigation">
-             <a class="nav nav-prev" href="/" title="My New Hugo Site"><i class="fas fa-chevron-left fa-fw"></i></a>
+             <a class="nav nav-prev" href="/" title="My IT notes in a wiki"><i class="fas fa-chevron-left fa-fw"></i></a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
@@ -54,7 +54,7 @@
             </span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <meta itemprop="itemListOrder" content="Descending" />
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/"><span itemprop="name">My New Hugo Site</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/"><span itemprop="name">My IT notes in a wiki</span></a> > </li>
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/tags/" aria-disabled="true"><span itemprop="name">Tags</span></a></li>
             </ol>
           </div>
@@ -144,9 +144,9 @@
           <input data-search-input id="search-by" type="search" placeholder="Search...">
           <span data-search-clear=""><i class="fas fa-times"></i></span>
         </div>
-        <script src="/js/lunr.min.js?1654500155"></script>
-        <script src="/js/auto-complete.js?1654500155"></script>
-        <script src="/js/search.js?1654500155"></script>
+        <script src="/js/lunr.min.js?1654501976"></script>
+        <script src="/js/auto-complete.js?1654501976"></script>
+        <script src="/js/search.js?1654501976"></script>
       </div>
       <div id="homelinks" class="default-animation">
         <ul>
@@ -158,28 +158,36 @@
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
         </ul>
-        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
-        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"/>
-        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showLangSwitch showVariantSwitch">
           <ul>
-            <li id="select-language-container" class="footerLangSwitch">
+            <li id="select-language-container" class="footerLangSwitch showLangSwitch">
               <a class="padding select-container">
                 <i class="fas fa-language fa-fw"></i>
                 <span>&nbsp;</span>
                 <div class="select-style">
                   <select id="select-language" onchange="location = baseUri + this.value;">
+                    <option id="en" value="/tags/" selected>English</option>
+                    <option id="nl" value="/nl/tags/">Nederlands</option>
                   </select>
                 </div>
                 <div class="select-clear"></div>
               </a>
             </li>
-            <li id="select-variant-container" class="footerVariantSwitch">
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
               <a class="padding select-container">
                 <i class="fas fa-paint-brush fa-fw"></i>
                 <span>&nbsp;</span>
                 <div class="select-style">
                   <select id="select-variant" onchange="variants.changeVariant( this.value );">
                     <option id="relearn-light" value="relearn-light" selected>Relearn Light</option>
+                    <option id="relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="learn" value="learn">Learn</option>
+                    <option id="neon" value="neon">Neon</option>
+                    <option id="red" value="red">Red</option>
+                    <option id="green" value="green">Green</option>
+                    <option id="blue" value="blue">Blue</option>
                   </select>
                 </div>
                 <div class="select-clear"></div>
@@ -194,9 +202,9 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1654500155"></script>
-    <script src="/js/perfect-scrollbar.min.js?1654500155"></script>
-    <script src="/js/featherlight.min.js?1654500155"></script>
-    <script src="/js/theme.js?1654500155"></script>
+    <script src="/js/clipboard.min.js?1654501976"></script>
+    <script src="/js/perfect-scrollbar.min.js?1654501976"></script>
+    <script src="/js/featherlight.min.js?1654501976"></script>
+    <script src="/js/theme.js?1654501976"></script>
   </body>
 </html>

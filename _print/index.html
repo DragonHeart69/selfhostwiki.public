@@ -6,8 +6,9 @@
     <meta name="generator" content="Hugo 0.97.0" />
     <meta name="generator" content="Relearn 3.4.1&#43;tip">
     <meta name="description" content="">
-    <title>Categories :: My IT notes in a wiki</title>
-    <link rel="alternate" type="application/rss&#43;xml" href="/categories/index.xml" title="My IT notes in a wiki" />
+    <title>My IT notes in a wiki</title>
+    <link rel="canonical" type="text/html" href="/" title="My IT notes in a wiki" />
+    <link rel="alternate" type="application/rss&#43;xml" href="/index.xml" title="My IT notes in a wiki" />
     <link href="/css/nucleus.css?1654501976" rel="stylesheet">
     <link href="/css/fontawesome-all.min.css?1654501976" rel="stylesheet">
     <link href="/css/featherlight.min.css?1654501976" rel="stylesheet">
@@ -17,7 +18,7 @@
     <link href="/css/theme-relearn-light.css?1654501976" rel="stylesheet" id="variant-style">
     <link href="/css/ie.css?1654501976" rel="stylesheet">
     <link href="/css/variant.css?1654501976" rel="stylesheet">
-    <link href="/css/print.css?1654501976" rel="stylesheet" media="print">
+    <link href="/css/print.css?1654501976" rel="stylesheet">
     <script src="/js/variant.js?1654501976"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
@@ -36,7 +37,7 @@
     </script>
     <script src="/js/jquery.min.js?1654501976"></script>
   </head>
-  <body class="mobile-support" data-url="/categories/">
+  <body class="mobile-support print" data-url="/">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -46,7 +47,12 @@
              <span class="nav nav-next"><i class="fa fa-chevron-right fa-fw"></i></span>
           </div>
           <div class="navigation">
-             <a class="nav nav-prev" href="/" title="My IT notes in a wiki"><i class="fas fa-chevron-left fa-fw"></i></a>
+             <span class="nav nav-prev"><i class="fa fa-chevron-left fa-fw"></i></span>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter' href="/_print/">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
@@ -54,8 +60,7 @@
             </span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <meta itemprop="itemListOrder" content="Descending" />
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/"><span itemprop="name">My IT notes in a wiki</span></a> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/categories/" aria-disabled="true"><span itemprop="name">Categories</span></a></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/" aria-disabled="true"><span itemprop="name">My IT notes in a wiki</span></a></li>
             </ol>
           </div>
         </div>
@@ -66,12 +71,18 @@
           </div>
           <article>
 
-<h1>Categories</h1>
+<h1>Customize your own home page</h1>
+<p>
+  The site is working. Don't forget to customize this page with your own. You typically have 3 choices :
+</p>
 <ul>
+  <li><b>1.</b> Create an _index.md document in <b>content</b> folder and fill it with Markdown content</li>
+  <li><b>2.</b> Create an <b>index.html</b> file in the <b>static</b> folder and fill the file with HTML content</li>
+  <li><b>3.</b> Configure your server to automatically redirect home page to one your documentation page</li>
 </ul>
 
             <footer class="footline">
-            </footer>
+          	</footer>
           </article>
         </div>
       </main>
@@ -168,8 +179,8 @@
                 <span>&nbsp;</span>
                 <div class="select-style">
                   <select id="select-language" onchange="location = baseUri + this.value;">
-                    <option id="en" value="/categories/" selected>English</option>
-                    <option id="nl" value="/nl/categories/">Nederlands</option>
+                    <option id="en" value="/" selected>English</option>
+                    <option id="nl" value="/nl/">Nederlands</option>
                   </select>
                 </div>
                 <div class="select-clear"></div>

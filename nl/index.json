@@ -4,20 +4,20 @@
     "description": "",
     "tags": null,
     "title": "Categories",
-    "uri": "/categories/"
+    "uri": "/nl/categories/"
   },
   {
     "content": "",
     "description": "",
     "tags": null,
-    "title": "My IT notes in a wiki",
-    "uri": "/"
+    "title": "Mijn IT notities in een wiki",
+    "uri": "/nl/"
   },
   {
     "content": "",
     "description": "",
     "tags": null,
     "title": "Tags",
-    "uri": "/tags/"
+    "uri": "/nl/tags/"
   }
 ]
